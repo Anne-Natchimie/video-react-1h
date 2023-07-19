@@ -1,0 +1,24 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Tweet {
+  background: rgb(181, 145, 219);
+  border: 2px solid rgb(112, 60, 147);
+  border-radius: 15px;
+  padding: 8px;
+  width: fit-content;
+  min-width: 200px;
+}
+
+.Tweet h3, p {
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.tweet-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
